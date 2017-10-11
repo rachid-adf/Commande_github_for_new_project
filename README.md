@@ -1,12 +1,12 @@
-# Commande_github_for_nwe_project
-Commande pour reinitialiser le repertoit distant github a la creation d'un nouveau projet
 
-annuler un git init
+Commande pour reinitialiser le repertoir distant github a la creation d'un nouveau projet
+
+# annuler un git init
 rmdir /s .git
 
-Initialiser depo 
-aller sur la racine du projet dans terminal
-s'assurer d'ajouter les exception sur le fichier  .gitignore
+# Initialiser depo 
+ - aller sur la racine du projet dans terminal
+ - s'assurer d'ajouter les exception sur le fichier  .gitignore
 
 git init
 git add .
