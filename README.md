@@ -1,13 +1,16 @@
 
 Commande pour reinitialiser le repertoir distant github a la creation d'un nouveau projet
 
-# annuler un git init
-rmdir /s .git
+
 
 # Initialiser depo 
  - aller sur la racine du projet dans terminal
- - s'assurer d'ajouter les exception sur le fichier  .gitignore
+ - s'assurer d'ajouter les exception pour les fichier .env et /node_modules sur le fichier  .gitignore
 
+# Commandes
+# Annuler un git init
+rmdir /s .git
+# Créer un nouveau depo
 git init
 git add .
 git commit -m "Initial commit"
